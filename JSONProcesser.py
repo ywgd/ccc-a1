@@ -162,8 +162,8 @@ def jsonLoadProcessor(byteArray,isEnd,count):
 # main function
 # TODO:加入数据集展示功能
 if __name__ == '__main__':
-    gridLangMap= gridProcessor('sydGrid.json')
-    mmapTwitterProcessor('smallTwitter.json',1,gridLangMap)
+    gridLangMap= gridProcessor('data/sydGrid.json')
+    mmapTwitterProcessor('data/smallTwitter.json',1,gridLangMap)
     for gridLang in gridLangMap.gridLangList:
         print(gridLang)
 
